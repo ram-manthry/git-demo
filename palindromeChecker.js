@@ -1,6 +1,6 @@
-function isPalindrome(inputStr) {
-    if (inputStr !== null) {
-        return inputStr === inputStr.split('').reverse().join('');
+function isPalindrome(inputStr1) {
+    if (inputStr1 !== null) {
+        return inputStr1 === inputStr1.split('').reverse().join('');
     }
     return false;
 }
